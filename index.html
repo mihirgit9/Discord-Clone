@@ -12,9 +12,9 @@
 <body class="overflow-x-hidden">
     <!-- navbar -->
     <nav class="bg-[#404EED]">
-        <div class="flex justify-between items-center max-w-[1200px] mx-auto py-[1.3rem]">
+        <div class="flex justify-between items-center w-[90%] max-w-[1200px] mx-auto py-[1.3rem]">
             <img src="./images/logo.svg" alt="@" class="cursor-pointer">
-            <div class="flex gap-12 font-['ggSans'] text-white font-semibold">
+            <div class="w-[50%] hidden lg:flex justify-between font-['ggSans'] text-white font-semibold">
                 <a href="#" class=" hover:underline">Download</a>
                 <a href="#" class=" hover:underline">Nitro</a>
                 <a href="#" class=" hover:underline">Discover</a>
@@ -33,9 +33,9 @@
     <section class="relative flex flex-col justify-center items-start md:items-center bg-[#404EED] -mt-1 p-[2rem] md:py-[7rem] pb-[11rem]
      text-white z-[10] overflow-x-hidden">
         <h2
-        class="font-['GintoNord'] text-[56px] font-extrabold  "
+        class="font-['GintoNord'] text-[32px] md:text-[56px] font-extrabold md:text-center "
         >IMAGINE A <br class=" xl:hidden"> PLACE...</h2>
-        <p class="w-[51%] text-center font-['ggSans'] text-[20px] font-[400]
+        <p class="w-[51%] md:text-center font-['ggSans'] text-[16px] md:text-[20px] font-[400]
         my-6"
         >...where you can belong to a school club, a gaming group, or a worldwide art 
             community. Where just you and a handful of friends can spend time together.
@@ -53,16 +53,18 @@
             </button>
         </div>
         <img src="./images/Image0.svg" class=" absolute z-[-10] bottom-10 scale-[1.2]" alt="" />
-        <img src="./images/Image1.svg" class=" absolute z-[-10] bottom-0 left-[75%]"  alt="" />
-        <img src="./images/Image2.svg" class="hidden md:block absolute z-[-10] bottom-0 right-[75%]" alt="" />
+        <img src="./images/Image1.svg" class="hidden md:block absolute z-[-10] bottom-0 md:left-[75%] "  alt="" />
+        <img src="./images/Image2.svg" class=" absolute z-[-10] bottom-0 right-[-10%] md:right-[75%]" alt="" />
     </section>
     <!-- section -1 -->
     <section class="py-[8rem]">
-        <div class="flex justify-between items-center max-w-[1200px] mx-auto px-2">
+        <div class="flex flex-col md:flex-row justify-between items-center w-[90%] max-w-[1200px] mx-auto px-2">
             <!-- left -->
-            <img src="./images/section1Image.svg" alt="" />
+            <div class="w-[100%] md:w-[50%] lg:w-[68%]">
+                <img src="./images/section1Image.svg" alt="" />
+            </div>
             <!-- right -->
-            <div class="w-[32%]">
+            <div class="w-[100%] md:w-[50%] lg:w-[32%]">
                 <h2 class="font-[700] text-[48px] font-['ggSans'] leading-[57.6px] mb-[2rem]">Create an invite-only place where you belong</h2>
                 <p class="font-['ggSans'] text-[20px] font-[400]">Discord servers are organized into topic-based channels 
                     where you can collaborate, share, and just talk about 
@@ -73,9 +75,12 @@
     </section>
     <!-- section-2 -->
     <section class="bg-[#f6f6f6] py-[8rem]">
-        <div class="flex justify-between items-center max-w-[1200px] mx-auto px-2">
+        <div class="flex flex-col md:flex-row justify-between items-center w-[90%] max-w-[1200px] mx-auto px-2">
+            <div class=" md:hidden w-[100%] md:w-[50%] lg:w-[68%]">
+                <img src="./images/section2Image.svg" alt="" />
+            </div>
             <!-- left -->
-            <div class="w-[32%]">
+            <div class="w-[100%] md:w-[50%] lg:w-[32%]">
                 <h2 class="font-[700] text-[48px] font-['ggSans'] leading-[57.6px] mb-[2rem]">Where hanging out is easy</h2>
                 <p class="font-['ggSans'] text-[20px] font-[400]">Grab a seat in a voice channel when you're free. friends
                     in your server can see you're around and instantly pop in to 
@@ -83,16 +88,22 @@
                 </p>
             </div>
             <!-- right -->
-            <img src="./images/section2Image.svg" alt="" />
+            <div class=" hidden md:block w-[100%] md:w-[50%] lg:w-[68%]">
+                <img src="./images/section2Image.svg" alt="" />
+            </div>
+            
         </div>
     </section>
     <!-- section-3 -->
     <section class="py-[8rem]">
-        <div class="flex justify-between items-center max-w-[1200px] mx-auto px-2">
+        <div class="flex flex-col md:flex-row justify-between items-center w-[90%] max-w-[1200px] mx-auto px-2">
             <!-- left -->
-            <img src="./images/section3Image.svg" alt="" />
+            <div class="w-[100%] md:w-[50%] lg:w-[68%]">
+                <img src="./images/section3Image.svg" alt="" />
+            </div>
+            
             <!-- right -->
-            <div class="w-[32%]">
+            <div class="w-[100%] md:w-[50%] lg:w-[32%]">
                 <h2 class="font-[700] text-[48px] font-['ggSans'] leading-[57.6px] mb-[2rem]">From few to a fandom</h2>
                 <p class="font-['ggSans'] text-[20px] font-[400]">Get any community running with moderation tools and custom member access. Give members special powers, 
                     set up private channels, and more.
@@ -110,7 +121,7 @@
             <img src="./images/section4Image.svg" alt="" class="w-[100%]" />
             <h2 class="font-['ggSans'] font-extrabold text-3xl mt-[7rem] leading-[38px]">Ready to start your journey?</h2>
             <button class="bg-[#404EED] text-white text-xl font-[500] font-['ggSans'] 
-            p-3 px-6 rounded-full mt-8 hover:drop-shadow-xl hover:bg-blue-500 transition-all duration-200"
+            p-3 px-6 rounded-full w-full md:w-fit mt-8 hover:drop-shadow-xl hover:bg-blue-500 transition-all duration-200"
             >   <i class="fa-solid fa-download mr-2"></i>
                 Download for Windows
             </button>
